@@ -1,0 +1,85 @@
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #d1f2eb;
+}
+
+/* global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button_1 {
+  height: 35px;
+  background: #00bfff;
+  border: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+/* header */
+
+header .topbar {
+  text-align: center;
+  background-color: #212f3c;
+}
+
+header h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+}
+header #logo {
+  margin: 3%;
+  text-align: center;
+}
+
+header nav {
+  background: #212f3c;
+  height: 50px;
+}
+
+header ul {
+  display: inline block;
+}
+
+.boxes {
+  margin-top: 10px;
+}
+
+.container .img {
+  width: 10px;
+}
+/* flex box */
+.container-1 {
+  display: flex;
+}
+
+.container-1 div {
+  border: 1px #ccc solid;
+  padding: 10px;
+}
+
+.box-1 {
+  flex: 2;
+  order: 2;
+}
+
+.box-2 {
+  flex: 1;
+  order: 1;
+}
+
+.box-3 {
+  flex: 1;
+  order: 3;
+}
